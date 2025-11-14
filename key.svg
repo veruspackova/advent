@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- deep red background to match your theme -->
+  <rect width="256" height="256" fill="#782832"/>
+
+  <!-- gold key -->
+  <g transform="translate(30, 60)">
+    <!-- key ring -->
+    <circle cx="80" cy="68" r="34" fill="none" stroke="#f7d67c" stroke-width="12"/>
+    <circle cx="80" cy="68" r="20" fill="none" stroke="#f4c85f" stroke-width="8"/>
+
+    <!-- key shaft -->
+    <rect x="110" y="60" width="90" height="14" rx="7" fill="#f4c85f"/>
+
+    <!-- key teeth -->
+    <rect x="180" y="74" width="14" height="20" fill="#f4c85f"/>
+    <rect x="160" y="74" width="14" height="12" fill="#f4c85f"/>
+
+    <!-- slight highlight -->
+    <rect x="112" y="62" width="86" height="4" rx="2" fill="rgba(255,255,255,0.35)"/>
+  </g>
+</svg>

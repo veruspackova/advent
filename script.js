@@ -75,13 +75,13 @@ document.addEventListener("DOMContentLoaded", () => {
       answer: "Northern lights",
     },
     15: {
-      title: "15: Eternal Evidence",
-      text: "Choose your favorite photo of you and Commander Lovebird.",
+      title: "15: Operation Roll Call",
+      text: "Roll a dice. Odd - you owe pleasure to Commander Lovebird 😈, Even - Commander Lovebird owes you pleasure 😮‍💨",
       answer: "",
     },
     16: {
-      title: "16: Operation Roll Call",
-      text: "Roll a dice. Odd - you owe pleasure to Commander Lovebird 😈, Even - Commander Lovebird owes you pleasure 😮‍💨",
+      title: "16: Eternal Evidence",
+      text: "Choose your favorite photo of you and Commander Lovebird.",
       answer: "",
     },
     17: {
@@ -320,8 +320,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const isUnavailable = unavailableDays.has(day);
 
     // If it's NOT December yet → everything is future/locked
-    const isFuture =
-      !isDecember || day > currentDay;
+    const isFuture = !isDecember || day > currentDay;
 
     if (isUnavailable) {
       cell.classList.add("locked");
